@@ -11,7 +11,7 @@ Actuellement, l'accompagnement des apprenants reste informel et peu outillé. Il
 Ce bot Discord a pour but de faciliter et d’automatiser certaines tâches clés du programme de mentorat :
 
 - 🧩 **Mise en relation** entre mentors (alumnis) et mentorés (apprenants)
-- 🕐 **Planification automatique des sessions** de mentorat
+- 🕐 **Planification des sessions** de mentorat
 - 📬 **Envoi de rappels et notifications** pour les sessions à venir
 - 📊 **Suivi des sessions** et **collecte de feedbacks**
 - 🧠 **Mise à disposition de ressources** pédagogiques ou communautaires
