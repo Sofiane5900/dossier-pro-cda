@@ -1,22 +1,25 @@
-# 🤖 Bot Discord - Mentorat Simplon
+# 🕋 Wasiyah – Application sécurisée de gestion testamentaire
 
-## 📚 Contexte du Projet
+**Wasiyah** est une application web de gestion de testament islamique, conçue pour garantir la conformité aux principes successoraux tout en assurant une confidentialité maximale grâce au chiffrement de bout en bout (E2EE).
 
-Dans le cadre de l’initiative de Simplon visant à renforcer le lien entre apprenants et anciens (alumnis), ce projet a pour ambition de structurer un **programme de mentorat** autour de valeurs de partage, d'entraide et d’insertion professionnelle.
+## 🧩 Fonctions principales
 
-Actuellement, l'accompagnement des apprenants reste informel et peu outillé. Il est donc nécessaire de mettre en place une solution durable, interactive et flexible pour **organiser, suivre et valoriser** les échanges entre mentors et mentorés.
+- Création de compte avec vérification email (token JWT)
+- Stockage chiffré localement (E2EE) avec phrase mnémonique (BIP39)
+- Hachage sécurisé des mots de passe (Argon2)
+- Désignation de wakils (mandataires) et gestion des actifs
+- Déclenchement post-mortem avec audit cryptographiquement signé
 
-## 🎯 Objectifs du Bot
+## 🛠️ Stack & sécurité
 
-Ce bot Discord a pour but de faciliter et d’automatiser certaines tâches clés du programme de mentorat :
+- Backend : NestJS, Fastify, PostgreSQL, TypeORM
+- Sécurité : JWT, Argon2, 2FA, cookies HttpOnly, Zéro connaissance
+- Tests : Vitest (unitaires/intégration), Playwright (E2E en CLI)
 
-- 🧩 **Mise en relation** entre mentors (alumnis) et mentorés (apprenants)
-- 🕐 **Planification des sessions** de mentorat
-- 📬 **Envoi de rappels et notifications** pour les sessions à venir
-- 📊 **Suivi des sessions** et **collecte de feedbacks**
-- 🧠 **Mise à disposition de ressources** pédagogiques ou communautaires
-- 🛡️ **Modération légère** pour garantir un cadre de confiance
+## 🎯 Intérêt métier
 
-## 🛠️ Technologies utilisées
+Ce projet m’a permis d’approfondir l’implémentation de mécanismes avancés de sécurité, la modélisation de règles métiers complexes (droit successoral islamique) et la conception d’une architecture modulaire sécurisée.
 
-- TBA
+---
+
+**Remarque** : Ce projet respecte les bonnes pratiques de développement sécurisé. Aucune donnée réelle n’a été utilisée.
