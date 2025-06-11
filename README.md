@@ -4,16 +4,16 @@
 
 ## 🧩 Fonctions principales
 
-- Création de compte avec vérification email (token JWT)
-- Stockage chiffré localement (E2EE) avec phrase mnémonique (BIP39)
-- Hachage sécurisé des mots de passe (Argon2)
+- Création de compte avec vérification email
+- Stockage chiffré de bout-en-bout avec phrase mnémonique
+- Hachage sécurisé des mots de passe
 - Désignation de wakils (mandataires) et gestion des actifs
 - Déclenchement post-mortem avec audit cryptographiquement signé
 
 ## 🛠️ Stack & sécurité
 
 - Backend : NestJS, Fastify, PostgreSQL, TypeORM
-- Sécurité : JWT, Argon2, 2FA, cookies HttpOnly, Zéro connaissance
+- Sécurité : JWT, Argon2, 2FA, cookies, Zéro-knowledge
 - Tests : Vitest (unitaires/intégration), Playwright (E2E en CLI)
 
 ## 🎯 Intérêt métier
